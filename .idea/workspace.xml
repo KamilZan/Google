@@ -3,31 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="03536d54-d1ea-40ec-99e0-25871ce14bbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InputTextAreaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InputTextAreaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AutoCompletePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Input/AutoCompletePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Button/SplitButtonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Button/SplitButtonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DatePickerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Input/DatePickerPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/InputTextareaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Input/InputTextareaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SplitButtonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SplitButtonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AutoCompleteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AutoCompleteTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ButtonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ButtonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DatePickerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DatePickerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HomePageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/InputTextAreaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InputTextAreaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/AutoCompletePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Button/ButtonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Button/ButtonPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Button/SplitButtonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Button/SplitButtonPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DatePickerPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/InputTextareaPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SplitButtonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SplitButtonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilis/Actions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilis/Actions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilis/WebDriverSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilis/WebDriverSingleton.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SeleniumFirstProject/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SeleniumFirstProject/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SeleniumFirstProject/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" />
@@ -72,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Input/InputTextareaPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="110">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,7 +83,7 @@
         <option value="Kamil.Z &lt;kamilzan@gmail.com&gt;" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -160,11 +135,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-521" />
-    <option name="y" value="109" />
-    <option name="width" value="2904" />
-    <option name="height" value="1106" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1820" />
+    <option name="y" value="149" />
+    <option name="width" value="1936" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,32 +159,6 @@
             <path>
               <item name="Google" type="b2602c69:ProjectViewProjectNode" />
               <item name="Google" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Google" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Google" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Google" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Google" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Google" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -224,9 +173,9 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552044713572" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552054343098" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -366,10 +315,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33765182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33765182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -383,7 +331,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3285968" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3261105" />
@@ -613,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/Input/InputTextareaPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="110">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
