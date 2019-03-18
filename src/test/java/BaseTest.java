@@ -39,6 +39,7 @@ public class BaseTest {
 
     @AfterTest
     public void tearDown() {
+        driver.get("https://www.primefaces.org/primeui/");
         WebDriverSingleton.quit();
     }
 

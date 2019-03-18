@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="16" failures="11" name="TestSuite" time="15.068" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="user.country.format" value="PL"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\kamil.zan\IdeaProjects\Google"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\kamil.zan\IdeaProjects\Google"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\kamil.zan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\kamil.zan\Downloads\important\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\nodejs\;&quot;;C:\Users\kamil.zan\Downloads\important\apache-maven-3.6.0\bin &quot;;C:\Users\kamil.zan\AppData\Roaming\npm;C:\Program Files\JetBrains\WebStorm 2018.3.3\bin;C:\Users\kamil.zan\Downloads\important\apache-maven-3.6.0\bin;C:\Users\kamil.zan\AppData\Local\Programs\Git\cmd;."/>
+    <property name="maven.conf" value="C:\Users\kamil.zan\Downloads\important\apache-maven-3.6.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\kamil.zan\Downloads\important\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\kamil.zan"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="user.name" value="kamil.zan"/>
+    <property name="java.class.path" value="C:\Users\kamil.zan\Downloads\important\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="pl"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp852"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\kamil.zan\Downloads\important\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp852"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="AutoCompleteTest" name="chooseSpecificValueInPrimeElementField" time="2.153"/>
+  <testcase classname="AutoCompleteTest" name="chooseSpecifiedValueFromTheMultipleList" time="3.814">
+    <failure message="did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at AutoCompleteTest.chooseSpecifiedValueFromTheMultipleList(AutoCompleteTest.java:33)
+</failure>
+    <system-out>Specified element: [[ChromeDriver: chrome on XP (e5662267d2089b90c08fbecdb2102e02)] -&gt; xpath: //a[contains(text(),&apos;AutoComplete&apos;)]] is clickable
+Clicking on element [[ChromeDriver: chrome on XP (e5662267d2089b90c08fbecdb2102e02)] -&gt; xpath: //a[contains(text(),&apos;AutoComplete&apos;)]]
+Sending keys: egy to element [[ChromeDriver: chrome on XP (e5662267d2089b90c08fbecdb2102e02)] -&gt; xpath: //input[@name=&apos;multiple&apos;]]
+clicking on Egypt
+</system-out>
+  </testcase>
+  <testcase classname="AutoCompleteTest" name="chooseSpecifiedValueInRemoteField" time="1.51"/>
+  <testcase classname="AutoCompleteTest" name="selectFromDropdown" time="4.509"/>
+  <testcase classname="AutoCompleteTest" name="sendKeysToBssicField" time="1.637"/>
+  <testcase classname="AutoCompleteTest" name="sendKeysToContentField" time="1.431"/>
+  <testcase classname="ButtonTest" name="clickOnDefaultBtn" time="0.002">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at ButtonTest.clickOnDefaultBtn(ButtonTest.java:7)
+</failure>
+  </testcase>
+  <testcase classname="DatePickerTest" name="changeMonth" time="0.002">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at DatePickerTest.changeMonth(DatePickerTest.java:8)
+</failure>
+  </testcase>
+  <testcase classname="DatePickerTest" name="setDayInCalendar" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at DatePickerTest.setDayInCalendar(DatePickerTest.java:15)
+</failure>
+  </testcase>
+  <testcase classname="DatePickerTest" name="setDayOnCalendarPopup" time="0.009">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at DatePickerTest.setDayOnCalendarPopup(DatePickerTest.java:22)
+</failure>
+  </testcase>
+  <testcase classname="HomePageTest" name="checkTitle" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HomePageTest.checkTitle(HomePageTest.java:12)
+</failure>
+  </testcase>
+  <testcase classname="HomePageTest" name="checkUrl" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at HomePageTest.checkUrl(HomePageTest.java:8)
+</failure>
+  </testcase>
+  <testcase classname="InputTextAreaTest" name="checkTheUrl" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at InputTextAreaTest.checkTheUrl(InputTextAreaTest.java:8)
+</failure>
+  </testcase>
+  <testcase classname="InputTextAreaTest" name="sendTextDefaultField" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at InputTextAreaTest.sendTextDefaultField(InputTextAreaTest.java:14)
+</failure>
+  </testcase>
+  <testcase classname="SplitButtonTest" name="selectButtonFromList" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at SplitButtonTest.selectButtonFromList(SplitButtonTest.java:8)
+</failure>
+  </testcase>
+  <testcase classname="SplitButtonTest" name="selectButtonFromSecondList" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at SplitButtonTest.selectButtonFromSecondList(SplitButtonTest.java:16)
+</failure>
+  </testcase>
+</testsuite>

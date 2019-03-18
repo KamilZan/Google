@@ -1,3 +1,5 @@
+import Pages.Input.AutoCompletePage;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class AutoCompleteTest extends BaseTest {
@@ -23,11 +25,12 @@ public class AutoCompleteTest extends BaseTest {
                 .contentSelectField("s", "start");
     }
     @Test
-    public  void chooseSpecifiedValueFromTheMultipleList()  {
+    public  void chooseSpecifiedValueFromTheMultipleList() throws InterruptedException {
         homePage.clickOnInputBtn()
                 .clickOnAutocomplete()
-                .multipleField("e", "Egypt")
-                .multipleField("r", "Rwanda");
+                .multiChoiceAutoComplete("egy", "Egypt");
+//                .multipleField("r", "Rwanda");
+        Assert.assertTrue(AutoCompletePage.information.getText().contains("Rwanda"));
     }
 
     @Test

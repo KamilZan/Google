@@ -34,6 +34,8 @@ public class AutoCompletePage extends BasePage {
     WebElement remoteField;
     @FindBy(xpath = "//input[@name='element']")
     WebElement primeElementField;
+    @FindBy(xpath = "//body/div[7]") WebElement multipleList;
+    public static @FindBy(id = "growl") WebElement information;
 
 
     public AutoCompletePage sendKaysToBasicField(String chars) {
@@ -60,7 +62,7 @@ public class AutoCompletePage extends BasePage {
         sendKeys(multipleField, firstchar);
         List<WebElement> multiSelectList = multipleField.findElements(By.tagName("li"));
         for (WebElement li : multiSelectList) {
-            if (li.getText().equals(value1))
+            if (li.getText().contains(value1))
                 li.click();
         }
         System.out.println("Clicking on pecyfied string: '" + value1 + "'");
@@ -98,6 +100,18 @@ public class AutoCompletePage extends BasePage {
             System.out.println(li.getText());
         }
         System.out.println("Clicking on: " + value);
+        return this;
+    }
+    public AutoCompletePage multiChoiceAutoComplete(String znak, String searchedValue) throws InterruptedException {
+        sendKeys(multipleField, znak);
+        List<WebElement> multipleAutocompleteList = multipleList.findElements(By.tagName("span"));
+        for (WebElement li: multipleAutocompleteList){
+            if (li.getText().contains(searchedValue));
+            li.click();
+            System.out.println(li.getText());
+        }
+        Thread.sleep(2000);
+        System.out.println("clicking on " + searchedValue);
         return this;
     }
 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="SplitButtonTest">
+        <methods>
+          <include name="selectButtonFromSecondList"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="selectButtonFromList"/>
+        </methods>
+      </class> <!-- SplitButtonTest -->
+      <class name="AutoCompleteTest">
+        <methods>
+          <include name="chooseSpecifiedValueFromTheMultipleList"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AutoCompleteTest -->
+      <class name="ButtonTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="clickOnDefaultBtn"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ButtonTest -->
+      <class name="HomePageTest">
+        <methods>
+          <include name="checkTitle"/>
+          <include name="setUp"/>
+          <include name="checkUrl"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- HomePageTest -->
+      <class name="DatePickerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="changeMonth"/>
+          <include name="setDayOnCalendarPopup"/>
+          <include name="tearDown"/>
+          <include name="setDayInCalendar"/>
+        </methods>
+      </class> <!-- DatePickerTest -->
+      <class name="InputTextAreaTest">
+        <methods>
+          <include name="sendTextDefaultField"/>
+          <include name="checkTheUrl"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- InputTextAreaTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
